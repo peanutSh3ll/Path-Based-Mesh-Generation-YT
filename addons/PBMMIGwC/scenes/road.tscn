@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://0mkfyndqi8pt"]
+
+[ext_resource type="Texture2D" uid="uid://bbayg7kvf47jc" path="res://addons/PBMMIGwC/textures/Road.png" id="1_bclnj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5bp5s"]
+albedo_texture = ExtResource("1_bclnj")
+uv1_scale = Vector3(0.422, 8.041, 1)
+
+[node name="CSGPolygon3D" type="CSGPolygon3D"]
+polygon = PackedVector2Array(-1.05097, 0.0040741, -1.01761, 0.0889498, 0.94375, 0.0962399, 1, 0)
+mode = 2
+path_node = NodePath("..")
+path_interval_type = 0
+path_interval = 1.0
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = true
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = true
+material = SubResource("StandardMaterial3D_5bp5s")

@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://5aq8g5botppa"]
+
+[ext_resource type="Texture2D" uid="uid://bdx4hk2u3jfdn" path="res://addons/PBMMIGwC/assets/ModularRoadBridge/puente-24df508e461adf12d109cb2f80c7b117_BlueWall_baseColor.png" id="1_68bt4"]
+
+[resource]
+resource_name = "Footpath.001"
+albedo_color = Color(1, 1, 1, 1)
+albedo_texture = ExtResource("1_68bt4")
+metallic = 0.4
+roughness = 0.620174

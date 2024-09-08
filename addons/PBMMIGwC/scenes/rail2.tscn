@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://ba25obr8iwjvn"]
+
+[node name="CSGPolygon3D2" type="CSGPolygon3D"]
+polygon = PackedVector2Array(1.05464, 0.00109172, 1.05281, 0.11046, 1.15913, 0.110088, 1.15867, 0.00310183)
+mode = 2
+path_node = NodePath("..")
+path_interval_type = 0
+path_interval = 1.0
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = true
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false

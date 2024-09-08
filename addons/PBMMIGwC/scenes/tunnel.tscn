@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c0t0xh6i57pj4"]
+
+[node name="CSGPolygon3D3" type="CSGPolygon3D"]
+visible = false
+use_collision = true
+flip_faces = true
+polygon = PackedVector2Array(-2.64773, -0.48543, -2.57853, 0.22753, -2.33516, 1.11109, -1.92501, 1.86503, -1.37937, 2.52911, -0.586658, 3.23414, 0.390369, 3.57466, 1.22064, 3.64944, 2.44342, 3.22742, 3.3414, 2.51174, 3.82912, 1.7681, 4.21893, 0.798101, 4.5062, -0.0437808, 4.56714, -0.434151, 3.48298, -0.602489, 2.4268, -0.687597, 1.82024, -0.388403, 1.29871, -0.13172, 0.0759926, -0.189079, -0.548937, -0.300073, -1.21153, -0.613962, -2.02062, -0.999621, -2.79934, -0.905573)
+mode = 2
+path_node = NodePath("..")
+path_interval_type = 0
+path_interval = 1.0
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = true
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false
